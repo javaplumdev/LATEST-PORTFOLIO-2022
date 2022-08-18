@@ -54,3 +54,45 @@ body {
 	border-radius: 5px;
 	font-weight: bold;
 }
+
+.proj-parent {
+	position: relative;
+}
+
+.proj-blue-ellipse {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.glass-card {
+	background: linear-gradient(
+		153.73deg,
+		rgba(217, 217, 217, 0.4) 9.54%,
+		rgba(217, 217, 217, 0) 100.15%
+	);
+	border: 1px solid #00a6a6;
+	border-radius: 10px;
+	padding: 1em;
+}
+
+.tech-card {
+	background-color: #05fb82;
+	color: #090d18;
+}
+
+.proj-ellipse {
+	position: absolute;
+	right: 0;
+	z-index: -1;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	background: #0b0a0c;
+}
+
+.footer-p {
+	color: #bababa;
+}

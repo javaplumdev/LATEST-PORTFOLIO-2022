@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 
 const HeroComponent = () => {
 	return (
-		<section>
+		<section className="mb-5">
 			<img
 				src={heroBlueEllipse}
 				alt={heroBlueEllipse}
@@ -36,7 +36,7 @@ const HeroComponent = () => {
 					</div>
 				</div>
 				<div
-					className={`mt-5 flex-wrap align-items-center ${styles.justifyContentCenter}`}
+					className={`my-5 flex-wrap align-items-center ${styles.justifyContentCenter}`}
 				>
 					<p className="mx-3">
 						<span className="display-6 fw-bold">10+</span>{' '}
