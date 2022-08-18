@@ -1,16 +1,18 @@
 import './App.css';
-import { designcard } from './data/Data';
+import { designcard, heroBlueEllipse, heroRedEllipse } from './data/Data';
 import { Container } from 'react-bootstrap';
+import NavbarComponent from './components/NavbarComponent';
+import HeroComponent from './components/HeroComponent';
 
 function App() {
 	document.body.classList.add('background');
 
 	return (
-		<div className="App">
+		<div className="App text-white">
 			<Container>
-				<p>Hi</p>
-				<img src={designcard} alt={designcard} />
+				<NavbarComponent />
 			</Container>
+			<HeroComponent />
 		</div>
 	);
 }

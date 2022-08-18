@@ -4,6 +4,53 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
 .background {
 	background-color: #090d18;
+}
+
+.nav {
+	z-index: 1;
+}
+
+.generation-text {
+	background: linear-gradient(99.1deg, #00ff47 1.89%, #49fff4 83.31%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.p-text {
+	color: #bababa;
+	line-height: 134.5%;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.hero-ellipse {
+	position: absolute;
+	top: 0;
+	opacity: 0.8;
+	z-index: -1;
+}
+
+.hero-red-ellipse {
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0.8;
+	z-index: -1;
+}
+
+.buttons {
+	background-color: #05fb82;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
 }
