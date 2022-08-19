@@ -55,6 +55,15 @@ body {
 	font-weight: bold;
 }
 
+.buttons-outlined {
+	border: 1px solid #05fb82;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #fff;
+	background: none;
+}
+
 .proj-parent {
 	position: relative;
 }
@@ -88,7 +97,6 @@ body {
 }
 
 .footer {
-	position: absolute;
 	width: 100%;
 	background: #0b0a0c;
 }

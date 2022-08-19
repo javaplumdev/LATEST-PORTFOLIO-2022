@@ -48,7 +48,11 @@ const HeroComponent = () => {
 
 					<p className="mx-3">
 						<span className="display-6 fw-bold">5000+</span>{' '}
-						<span className="generation-text fs-5">lines of code </span>
+						<span className="generation-text fs-5">lines of codes</span>
+					</p>
+					<p className="mx-3">
+						<span className="display-6 fw-bold">10+</span>{' '}
+						<span className="generation-text fs-5">design templates</span>
 					</p>
 				</div>
 			</Container>

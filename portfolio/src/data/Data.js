@@ -16,6 +16,18 @@ import Group7 from '../assets/Group 7.png';
 import Group8 from '../assets/Group 8.png';
 import Group9 from '../assets/Group 9.png';
 import Group10 from '../assets/Group 10.png';
+import Group11 from '../assets/Group 11.png';
+import design1 from '../assets/design group 1.png';
+import design2 from '../assets/design group 2.png';
+import design3 from '../assets/design group 3.png';
+import design4 from '../assets/design group 4.png';
+import design5 from '../assets/design group 5.png';
+import design6 from '../assets/design group 6.png';
+import design7 from '../assets/design group 7.png';
+import design8 from '../assets/design group 8.png';
+import design9 from '../assets/design group 9.png';
+import design10 from '../assets/design group 10.png';
+import design11 from '../assets/design group 11.PNG';
 import yesIknowU from '../assets/yesi know you.png';
 import freedomwall from '../assets/freedomwall desktop.PNG';
 import movieapp from '../assets/movie app desktop.PNG';
@@ -101,6 +113,13 @@ const ProjectsData = [
 		link: 'https://mymovieappreact.netlify.app/',
 	},
 	{
+		projectID: 33,
+		projectName: 'Sillyfrog',
+		image: Group11,
+		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP', 'FIREBASE'],
+		link: 'https://sillyfrog.netlify.app/',
+	},
+	{
 		projectID: 3,
 		projectName: 'E-Commerce website with react',
 		image: Group10,
@@ -181,21 +200,98 @@ const RecentProjects = [
 		projectName: 'Movie app',
 		image: Group6,
 		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP'],
+		link: 'https://mymovieappreact.netlify.app/',
 	},
 	{
 		projectID: 1,
 		projectName: 'Freedomwall',
 		image: Group7,
 		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP', 'FIREBASE'],
+		link: 'https://freedomwallapp.netlify.app/',
 	},
 	{
 		projectID: 3,
-		projectName: 'E-Commerce',
-		image: Group10,
-		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP'],
+		projectName: 'Sillyfrog',
+		image: Group11,
+		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP', 'FIREBASE'],
+		link: 'https://sillyfrog.netlify.app/',
 	},
 ];
+
+const RecentDesignProjects = [
+	{
+		id: '1',
+		name: 'Spice Realm Pizza Order design',
+		image: design1,
+	},
+	{
+		id: '2',
+		name: 'Nike market concept design',
+		image: design2,
+	},
+	{
+		id: '3',
+		name: 'Music player concept',
+		image: design3,
+	},
+];
+
+const DesignProjects = [
+	{
+		id: '1',
+		name: 'Spice Realm Pizza Order Design',
+		image: design1,
+	},
+	{
+		id: '2',
+		name: 'Nike Market Concept Design',
+		image: design2,
+	},
+	{
+		id: '3',
+		name: 'Music Player Concept',
+		image: design3,
+	},
+	{
+		id: '4',
+		name: 'Simple Login Form',
+		image: design4,
+	},
+	{
+		id: '5',
+		name: 'Simple Landing Form',
+		image: design6,
+	},
+	{
+		id: '6',
+		name: 'E Commerce App Design',
+		image: design7,
+	},
+	{
+		id: '7',
+		name: 'Landing Page Concept',
+		image: design8,
+	},
+	{
+		id: '9',
+		name: 'ICCT LMS Redesign Concept',
+		image: design9,
+	},
+	{
+		id: '10',
+		name: 'ICCT LMS Redesign Concept',
+		image: design10,
+	},
+	{
+		id: '11',
+		name: 'Redesign of Bro Code App',
+		image: design11,
+	},
+];
+
 export {
+	DesignProjects,
+	RecentDesignProjects,
 	RecentProjects,
 	ProjectsData,
 	designcard,

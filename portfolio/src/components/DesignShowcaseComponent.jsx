@@ -23,7 +23,9 @@ const DesignShowcaseComponent = () => {
 						<p className="p-text lead">
 							The beauty of a website is in its detail.
 						</p>
-						<button className="buttons">See all</button>
+						<a href="/projects">
+							<button className="buttons">See all</button>
+						</a>
 					</div>
 					<img src={designcard} alt={designcard} className="img-fluid" />
 				</div>

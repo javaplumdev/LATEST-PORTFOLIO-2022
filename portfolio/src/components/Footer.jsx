@@ -21,10 +21,32 @@ const Footer = () => {
 						<div className="mx-5 text-white">
 							Links
 							<ul className="footer-p list-unstyled ">
-								<li>Home</li>
-								<li>About</li>
-								<li>Projects</li>
-								<li>Contact</li>
+								<li className="p-text">
+									<a href="/" className="text-decoration-none text-white">
+										Home
+									</a>
+								</li>
+								<li className="p-text">
+									<a href="/about" className="text-decoration-none text-white">
+										About
+									</a>
+								</li>
+								<li className="p-text">
+									<a
+										href="/projects"
+										className="text-decoration-none text-white"
+									>
+										Projects
+									</a>
+								</li>
+								<li className="p-text">
+									<a
+										href="/contacts"
+										className="text-decoration-none text-white"
+									>
+										Contacts
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -34,9 +56,28 @@ const Footer = () => {
 							Copyright © 2021 My portfolio. All Rights Reserved.
 						</p>
 						<div>
-							<GrInstagram size="20" />
-							<FaFacebook className="mx-3" size="20" />
-							<AiFillLinkedin size="20" />
+							<a
+								href="https://www.instagram.com/javaplum__/"
+								target="_blank"
+								className="text-white"
+							>
+								<GrInstagram size="20" />
+							</a>
+
+							<a
+								href="https://www.facebook.com/charlitomecarez/"
+								target="_blank"
+								className="text-white"
+							>
+								<FaFacebook className="mx-3" size="20" />
+							</a>
+							<a
+								href="https://www.linkedin.com/in/charlito-mecarez-jr-5565431b4/"
+								target="_blank"
+								className="text-white"
+							>
+								<AiFillLinkedin size="20" />
+							</a>
 						</div>
 					</div>
 				</div>

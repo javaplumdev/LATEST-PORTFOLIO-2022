@@ -18,8 +18,15 @@ const Projects = () => {
 									className="glass-card p-3"
 									style={{ maxWidth: '360px', margin: '5px' }}
 								>
-									<img src={item.image} className="project w-100" />
-									<p>{item.projectName}</p>
+									<a
+										href={item.link}
+										target="_blank"
+										className="text-white text-decoration-none"
+									>
+										<img src={item.image} className="project w-100" />
+										<p>{item.projectName}</p>
+									</a>
+
 									<div className="d-flex flex-wrap">
 										{item.tech.map((tech) => {
 											return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Col, Row, Container } from 'react-bootstrap';
-import { RecentProjects } from '../data/Data';
+import { Container } from 'react-bootstrap';
+import { RecentDesignProjects } from '../data/Data';
 import { v4 as uuidv4 } from 'uuid';
 import Slide from 'react-reveal/Slide';
 
@@ -11,24 +11,15 @@ const Designs = () => {
 				<h1>Recent projects</h1>
 				<Slide top cascade>
 					<div className="my-3 d-flex flex-wrap justify-content-center">
-						{RecentProjects.map((item) => {
+						{RecentDesignProjects.map((item) => {
 							return (
 								<div
-									key={item.projectID}
-									className="glass-card p-3"
+									key={item.id}
+									className="p-3"
 									style={{ maxWidth: '360px', margin: '5px' }}
 								>
 									<img src={item.image} className="project w-100" />
-									<p>{item.projectName}</p>
-									<div className="d-flex flex-wrap">
-										{item.tech.map((tech) => {
-											return (
-												<small key={uuidv4()} className="tech-card m-1 p-1">
-													{tech}
-												</small>
-											);
-										})}
-									</div>
+									<p className="p-text mt-3">{item.name}</p>
 								</div>
 							);
 						})}

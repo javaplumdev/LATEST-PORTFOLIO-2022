@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProjBlueEllipse, designplarform } from '../data/Data';
 import { styles } from '../constant/index';
-
+import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 const ProjShowcaseComponent = () => {
@@ -30,7 +30,9 @@ const ProjShowcaseComponent = () => {
 							Built with care and attention to detail, these stunning websites
 							are crafted with love.
 						</p>
-						<button className="buttons">See all</button>
+						<a href="/projects">
+							<button className="buttons">See all</button>
+						</a>
 					</div>
 				</div>
 			</Fade>
