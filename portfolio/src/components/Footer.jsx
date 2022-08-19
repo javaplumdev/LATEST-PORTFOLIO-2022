@@ -7,7 +7,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 const Footer = () => {
 	return (
 		<section>
-			<div className="footer py-5" style={{ marginTop: '10em' }}>
+			<div className="footer py-5" style={{ marginTop: '5em' }}>
 				<div className="container">
 					<div className=" d-flex">
 						<div>

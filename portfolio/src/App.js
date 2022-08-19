@@ -11,6 +11,8 @@ import Designs from './components/Designs';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 
+import 'animate.css';
+
 function App() {
 	document.body.classList.add('background');
 

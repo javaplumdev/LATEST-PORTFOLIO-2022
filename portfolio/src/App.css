@@ -96,3 +96,7 @@ body {
 .footer-p {
 	color: #bababa;
 }
+
+.animate__animated.animate__fadeIn {
+	--animate-duration: 4s;
+}

@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 
 const HeroComponent = () => {
 	return (
-		<section className="mb-5">
+		<section className=" mb-5">
 			<img
 				src={heroBlueEllipse}
 				alt={heroBlueEllipse}
@@ -18,7 +18,10 @@ const HeroComponent = () => {
 			/>
 			<Container>
 				<div className={`d-md-flex align-items-center justify-content-center`}>
-					<div style={{ maxWidth: '560px' }} className="nav mb-5 text-sm-right">
+					<div
+						style={{ maxWidth: '560px' }}
+						className="animate__animated animate__fadeInDown nav mb-5 text-sm-right"
+					>
 						<h1 className="display-1 my-3" style={{ lineHeight: '1' }}>
 							Building next{' '}
 							<span className="generation-text fw-bold">generation</span>{' '}
@@ -31,7 +34,7 @@ const HeroComponent = () => {
 						</p>
 						<button className="buttons">Get started</button>
 					</div>
-					<div>
+					<div className="animate__animated animate__fadeIn">
 						<img src={heroplatform} alt={heroplatform} className="img-fluid" />
 					</div>
 				</div>
