@@ -7,12 +7,6 @@ import Fade from 'react-reveal/Fade';
 const ProjShowcaseComponent = () => {
 	return (
 		<section style={{ marginTop: '5em' }} className="proj-parent">
-			<img
-				src={heroBlueEllipse}
-				alt={heroBlueEllipse}
-				className="hero-ellipse w-100"
-			/>
-
 			<Fade cascade>
 				<div
 					className={`container flex-wrap ${styles.justifyContentBetween} ${styles.alignItemsCenter}`}

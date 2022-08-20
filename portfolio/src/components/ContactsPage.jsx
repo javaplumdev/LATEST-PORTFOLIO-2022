@@ -9,11 +9,6 @@ const ContactsPage = () => {
 		<>
 			<section>
 				<img
-					src={heroBlueEllipse}
-					alt={heroBlueEllipse}
-					className="hero-ellipse w-100"
-				/>
-				<img
 					src={heroRedEllipse}
 					alt={heroRedEllipse}
 					className="hero-red-ellipse"

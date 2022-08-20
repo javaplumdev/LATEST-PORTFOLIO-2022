@@ -16,6 +16,11 @@ const ProjectsPage = () => {
 	return (
 		<>
 			<section>
+				<img
+					src={heroRedEllipse}
+					alt={heroRedEllipse}
+					className="hero-red-ellipse"
+				/>
 				<div className="container">
 					<h3 className="display-3 fw-bold m-3">
 						{isProjectRendered ? 'Projects' : 'Designs'}
