@@ -28,20 +28,25 @@ const ProjectsPage = () => {
 			/>
 
 			<div className="container">
-				<button
-					className={`${
-						isProjectRendered ? 'buttons' : 'buttons-outlined'
-					} mx-3`}
-					onClick={() => setIsProjectRendered(true)}
-				>
-					Projects
-				</button>
-				<button
-					className={`${isProjectRendered ? 'buttons-outlined' : 'buttons'}`}
-					onClick={() => setIsProjectRendered(false)}
-				>
-					Designs
-				</button>
+				<h3 className="display-3 fw-bold m-3">
+					{isProjectRendered ? 'Projects' : 'Designs'}
+				</h3>
+				<div className="my-3">
+					<button
+						className={`${
+							isProjectRendered ? 'buttons' : 'buttons-outlined'
+						} mx-3`}
+						onClick={() => setIsProjectRendered(true)}
+					>
+						Projects
+					</button>
+					<button
+						className={`${isProjectRendered ? 'buttons-outlined' : 'buttons'}`}
+						onClick={() => setIsProjectRendered(false)}
+					>
+						Designs
+					</button>
+				</div>
 				<Slide top cascade>
 					<div className="d-flex flex-wrap mt-3">
 						{isProjectRendered === true

@@ -2,6 +2,7 @@ import React from 'react';
 import { heroplatform, heroBlueEllipse, heroRedEllipse } from '../data/Data';
 import { styles } from '../constant/index';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const HeroComponent = () => {
 	return (
@@ -23,16 +24,18 @@ const HeroComponent = () => {
 						className="animate__animated animate__fadeInDown nav mb-5 text-sm-right"
 					>
 						<h1 className="display-1 my-3" style={{ lineHeight: '1' }}>
-							Building next{' '}
-							<span className="generation-text fw-bold">generation</span>{' '}
+							Creating{' '}
+							<span className="generation-text fw-bold">cutting-edge</span>{' '}
 							websites.
 						</h1>
 						<p className="lead p-text d-none d-sm-block">
-							I build user interfaces that are friendly and respectful. I use
-							the latest web technologies and design solutions to solve business
-							problems, but also build great looking websites.
+							I create considerate and amiable user interfaces. I create
+							beautiful websites while simultaneously solving business
+							challenges with the most recent web technology.
 						</p>
-						<button className="buttons">Get started</button>
+						<Link to="/contacts">
+							<button className="buttons">Get started</button>
+						</Link>
 					</div>
 					<div className="animate__animated animate__fadeIn">
 						<img src={heroplatform} alt={heroplatform} className="img-fluid" />
@@ -47,7 +50,7 @@ const HeroComponent = () => {
 					</p>
 
 					<p className="mx-3">
-						<span className="display-6 fw-bold">5000+</span>{' '}
+						<span className="display-6 fw-bold">2000+</span>{' '}
 						<span className="generation-text fs-5">lines of codes</span>
 					</p>
 					<p className="mx-3">

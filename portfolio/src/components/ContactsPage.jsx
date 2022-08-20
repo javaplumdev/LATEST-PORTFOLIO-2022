@@ -17,14 +17,15 @@ const ContactsPage = () => {
 				alt={heroRedEllipse}
 				className="hero-red-ellipse"
 			/>
-			<div className="container ">
-				<h3>Contacts</h3>
-				<div className="glass-card p-3 mt-3 ">
-					<h1 className="display-5 fw-bold">
-						Let's get <span className="generation-text">started</span>
-					</h1>
+			<div className="container">
+				<div className="p-3 mt-3 ">
+					<h3 className="display-3 fw-bold">Contacts</h3>
+					<p className="fs-3">Get in touch, let's talk.</p>
 					<div className="d-flex justify-content-between flex-wrap">
-						<h6>email: carenzdelarosa@gmail.com</h6>
+						<div>
+							<p className="p-text">Feel free to send me an email</p>
+							<p>carenzdelarosa@gmail.com</p>
+						</div>
 						<div>
 							<a
 								href="https://www.instagram.com/javaplum__/"

@@ -11,12 +11,14 @@ const TechComponent = () => {
 			>
 				<div style={{ maxWidth: '530px' }}>
 					<h1 className="my-3">
-						Using these <span className="generation-text">technologies</span> to
-						help build incredible projects.
+						Utilizing these{' '}
+						<span className="generation-text">technologies</span> to support the
+						creation of amazing ventures.
 					</h1>
 					<p className="p-text" style={{ maxWidth: '490px' }}>
-						Designing beautiful, usable and engaging pages, to executing all the
-						tasks necessary to create a successful online presence.
+						Creating stunning, functional, and interesting pages, as well as
+						carrying out all the activities required to establish a successful
+						online presence.
 					</p>
 				</div>
 				<div style={{ maxWidth: '420px' }}>

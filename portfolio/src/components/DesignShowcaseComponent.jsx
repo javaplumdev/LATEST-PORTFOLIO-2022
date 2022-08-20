@@ -17,11 +17,12 @@ const DesignShowcaseComponent = () => {
 				>
 					<div style={{ maxWidth: '530px' }} className="my-5">
 						<h1 className="fs-1">
-							Designing these top notch{' '}
-							<span className="generation-text">modern</span> user interfaces.
+							Creating these excellent{' '}
+							<span className="generation-text">contemporary</span> user
+							interfaces.
 						</h1>
 						<p className="p-text lead">
-							The beauty of a website is in its detail.
+							A website's attractiveness lies on its attention to detail.
 						</p>
 						<a href="/projects">
 							<button className="buttons">See all</button>

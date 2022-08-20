@@ -11,6 +11,7 @@ import Contacts from './components/Contacts';
 import ContactsPage from './components/ContactsPage';
 import Footer from './components/Footer';
 import ProjectsPage from './components/ProjectsPage';
+import ReactHelmet from './components/ReactHelmet';
 import About from './components/About';
 import { Route, Routes } from 'react-router-dom';
 import { ContextFunction } from './context/context-config';
@@ -23,6 +24,7 @@ function App() {
 	return (
 		<ContextFunction>
 			<div className="App text-white">
+				<ReactHelmet />
 				<Container>
 					<NavbarComponent />
 				</Container>

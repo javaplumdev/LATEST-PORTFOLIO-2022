@@ -226,12 +226,12 @@ const RecentDesignProjects = [
 	},
 	{
 		id: '2',
-		name: 'Nike market concept design',
+		name: 'Nike Market Concept Design',
 		image: design2,
 	},
 	{
 		id: '3',
-		name: 'Music player concept',
+		name: 'Music Player Concept',
 		image: design3,
 	},
 ];

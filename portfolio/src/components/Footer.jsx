@@ -14,7 +14,7 @@ const Footer = () => {
 							<img src={logo} alt={logo} />
 
 							<p className="footer-p lead ">
-								Aspiring front-end web developer that creates nice looking
+								Front-end web developer aspirant who produces attractive
 								projects.
 							</p>
 						</div>
@@ -53,7 +53,7 @@ const Footer = () => {
 					<hr></hr>
 					<div className=" d-flex justify-content-between flex-wrap">
 						<p className="footer-p">
-							Copyright © 2021 My portfolio. All Rights Reserved.
+							Copyright © 2021 Charlito Mecarez Jr. All Rights Reserved.
 						</p>
 						<div>
 							<a

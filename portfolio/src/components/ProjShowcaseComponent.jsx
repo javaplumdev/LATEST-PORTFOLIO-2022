@@ -23,8 +23,8 @@ const ProjShowcaseComponent = () => {
 					/>
 					<div style={{ maxWidth: '560px' }} className="my-5">
 						<h1 className="fs-1">
-							Excited to be able to bring you this collection of{' '}
-							<span className="generation-text">beautiful</span> works.
+							Thrilled to be able to present this assortment of{' '}
+							<span className="generation-text">exquisite</span> works to you.
 						</h1>
 						<p className="p-text lead">
 							Built with care and attention to detail, these stunning websites
