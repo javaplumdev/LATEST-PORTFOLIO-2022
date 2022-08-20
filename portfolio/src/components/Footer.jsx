@@ -2,7 +2,7 @@ import React from 'react';
 import { logo } from '../data/Data';
 import { GrInstagram } from 'react-icons/gr';
 import { FaFacebook } from 'react-icons/fa';
-import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Footer = () => {
 	return (
@@ -63,7 +63,6 @@ const Footer = () => {
 							>
 								<GrInstagram size="20" />
 							</a>
-
 							<a
 								href="https://www.facebook.com/charlitomecarez/"
 								target="_blank"
@@ -77,6 +76,14 @@ const Footer = () => {
 								className="text-white"
 							>
 								<AiFillLinkedin size="20" />
+							</a>
+
+							<a
+								href="https://github.com/javaplumdev"
+								target="_blank"
+								className="text-white mx-3"
+							>
+								<AiFillGithub size="20" />
 							</a>
 						</div>
 					</div>

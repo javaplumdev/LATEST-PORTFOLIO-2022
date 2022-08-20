@@ -15,7 +15,7 @@ import ReactHelmet from './components/ReactHelmet';
 import About from './components/About';
 import { Route, Routes } from 'react-router-dom';
 import { ContextFunction } from './context/context-config';
-
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import 'animate.css';
 
 function App() {
@@ -33,6 +33,11 @@ function App() {
 						path="/"
 						element={
 							<>
+								<HelmetProvider>
+									<Helmet>
+										<title>Charlito Mecarez Jr. | Home</title>
+									</Helmet>
+								</HelmetProvider>
 								<HeroComponent />
 								<TechComponent />
 								<ProjShowcaseComponent />
@@ -44,9 +49,45 @@ function App() {
 							</>
 						}
 					/>
-					<Route path="/projects" element={<ProjectsPage />} />
-					<Route path="/contacts" element={<ContactsPage />} />
-					<Route path="/about" element={<About />} />
+					<Route
+						path="/projects"
+						element={
+							<>
+								<HelmetProvider>
+									<Helmet>
+										<title>Charlito Mecarez Jr. | Projects</title>
+									</Helmet>
+								</HelmetProvider>
+								<ProjectsPage />
+							</>
+						}
+					/>
+					<Route
+						path="/contacts"
+						element={
+							<>
+								<HelmetProvider>
+									<Helmet>
+										<title>Charlito Mecarez Jr. | Contacts</title>
+									</Helmet>
+								</HelmetProvider>
+								<ContactsPage />
+							</>
+						}
+					/>
+					<Route
+						path="/about"
+						element={
+							<>
+								<HelmetProvider>
+									<Helmet>
+										<title>Charlito Mecarez Jr. | About</title>
+									</Helmet>
+								</HelmetProvider>
+								<About />
+							</>
+						}
+					/>
 				</Routes>
 			</div>
 		</ContextFunction>
