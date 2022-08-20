@@ -8,7 +8,6 @@ import {
 import Slide from 'react-reveal/Slide';
 import { v4 as uuidv4 } from 'uuid';
 import { ContextVariable } from '../context/context-config';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const ProjectsPage = () => {
 	const { setIsProjectRendered, isProjectRendered } =
@@ -17,17 +16,6 @@ const ProjectsPage = () => {
 	return (
 		<>
 			<section>
-				<img
-					src={heroBlueEllipse}
-					alt={heroBlueEllipse}
-					className="hero-ellipse"
-				/>
-				<img
-					src={heroRedEllipse}
-					alt={heroRedEllipse}
-					className="hero-red-ellipse"
-				/>
-
 				<div className="container">
 					<h3 className="display-3 fw-bold m-3">
 						{isProjectRendered ? 'Projects' : 'Designs'}

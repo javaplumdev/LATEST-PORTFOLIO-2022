@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjBlueEllipse, designplarform } from '../data/Data';
+import { heroBlueEllipse, designplarform, heroRedEllipse } from '../data/Data';
 import { styles } from '../constant/index';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
@@ -8,10 +8,11 @@ const ProjShowcaseComponent = () => {
 	return (
 		<section style={{ marginTop: '5em' }} className="proj-parent">
 			<img
-				src={ProjBlueEllipse}
-				alt={ProjBlueEllipse}
-				className="proj-blue-ellipse"
+				src={heroBlueEllipse}
+				alt={heroBlueEllipse}
+				className="hero-ellipse w-100"
 			/>
+
 			<Fade cascade>
 				<div
 					className={`container flex-wrap ${styles.justifyContentBetween} ${styles.alignItemsCenter}`}

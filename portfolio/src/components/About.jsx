@@ -14,7 +14,7 @@ const About = () => {
 				<img
 					src={heroBlueEllipse}
 					alt={heroBlueEllipse}
-					className="hero-ellipse"
+					className="hero-ellipse w-100"
 				/>
 				<img
 					src={heroRedEllipse}

@@ -11,13 +11,14 @@ const ContactsPage = () => {
 				<img
 					src={heroBlueEllipse}
 					alt={heroBlueEllipse}
-					className="hero-ellipse"
+					className="hero-ellipse w-100"
 				/>
 				<img
 					src={heroRedEllipse}
 					alt={heroRedEllipse}
 					className="hero-red-ellipse"
 				/>
+
 				<div className="container">
 					<div className="p-3 mt-3 ">
 						<h3 className="display-3 fw-bold">Contacts</h3>

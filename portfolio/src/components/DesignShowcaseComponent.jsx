@@ -7,11 +7,6 @@ const DesignShowcaseComponent = () => {
 	return (
 		<Fade cascade>
 			<section style={{ marginTop: '10em' }}>
-				<img
-					src={designEllipise}
-					alt={designEllipise}
-					className="proj-ellipse"
-				/>
 				<div
 					className={`container flex-wrap ${styles.justifyContentBetween} ${styles.alignItemsCenter}`}
 				>
