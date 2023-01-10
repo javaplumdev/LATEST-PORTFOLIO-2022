@@ -67,6 +67,20 @@ const About = () => {
 								>
 									<AiFillGithub size="30" />
 								</a>
+
+								<div className="mt-3">
+									<h4>Resume</h4>
+									<p className="p-text fs-5">
+										You can check my cv{' '}
+										<a
+											target="_blank"
+											href="https://drive.google.com/file/d/1g_HKGqBmQ2-jndyp86sfqTeUPuFftac_/view?usp=share_link"
+											className="text-white"
+										>
+											here
+										</a>
+									</p>
+								</div>
 							</Col>
 							<Col md={8}>
 								<p className="p-text fs-5">
