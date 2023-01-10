@@ -21,7 +21,7 @@ const ContactsPage = () => {
 						<div className="d-flex justify-content-between flex-wrap">
 							<div>
 								<p className="p-text">Feel free to send me an email</p>
-								<p>carenzdelarosa@gmail.com</p>
+								<p>charlitomecarezjr@gmail.com</p>
 							</div>
 							<div>
 								<a

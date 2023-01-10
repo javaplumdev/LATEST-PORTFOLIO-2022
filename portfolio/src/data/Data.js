@@ -93,6 +93,10 @@ const TechImages = [
 		id: 'firebase-id',
 		image: 'https://img.icons8.com/color/344/firebase.png',
 	},
+	{
+		id: 'tailwind-id',
+		image: 'https://img.icons8.com/color/512/tailwindcss.png',
+	},
 ];
 
 const ProjectsData = [

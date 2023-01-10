@@ -70,7 +70,7 @@ const About = () => {
 							</Col>
 							<Col md={8}>
 								<p className="p-text fs-5">
-									Hi! I'm a fourth-year student from the Philippines. a
+									Hi! I'm a graduated student from the Philippines. A
 									self-taught developer with a foundational understanding of
 									both web design and programming. I was motivated and propelled
 									forward to create many ideas and designs by my curiosity in
