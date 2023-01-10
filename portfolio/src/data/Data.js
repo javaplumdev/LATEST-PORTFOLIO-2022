@@ -39,6 +39,7 @@ import musictap from '../assets/music tap desktop.PNG';
 import foodapp from '../assets/food app desktop.PNG';
 import areubored from '../assets/are u bored desktop.PNG';
 import crushme from '../assets/crush me desktop.PNG';
+import shopeecloneapp from '../assets/shopee clone.png';
 import detailsGenerator from '../assets/details generator desktop.PNG';
 
 const NavLinks = [
@@ -82,6 +83,10 @@ const TechImages = [
 		image: 'https://img.icons8.com/color/344/bootstrap.png',
 	},
 	{
+		id: 'tailwind-id',
+		image: 'https://img.icons8.com/color/512/tailwindcss.png',
+	},
+	{
 		id: 'figma-id',
 		image: 'https://img.icons8.com/color/344/figma--v1.png',
 	},
@@ -93,10 +98,6 @@ const TechImages = [
 		id: 'firebase-id',
 		image: 'https://img.icons8.com/color/344/firebase.png',
 	},
-	{
-		id: 'tailwind-id',
-		image: 'https://img.icons8.com/color/512/tailwindcss.png',
-	},
 ];
 
 const ProjectsData = [
@@ -107,6 +108,14 @@ const ProjectsData = [
 		image2: freedomwall,
 		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP', 'FIREBASE'],
 		link: 'https://freedomwallapp.netlify.app/',
+	},
+	{
+		projectID: 22,
+		projectName: 'Shopee Clone',
+		image: shopeecloneapp,
+		image2: shopeecloneapp,
+		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'TAILWIND CSS'],
+		link: 'https://shopeecloneapp.netlify.app/',
 	},
 	{
 		projectID: 2,
@@ -200,11 +209,11 @@ const ProjectsData = [
 
 const RecentProjects = [
 	{
-		projectID: 2,
-		projectName: 'Movie app',
-		image: Group6,
-		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'BOOTSTRAP'],
-		link: 'https://mymovieappreact.netlify.app/',
+		projectID: 22,
+		projectName: 'Shopee Clone',
+		image: shopeecloneapp,
+		tech: ['HTML', 'CSS', 'JS', 'REACT JS', 'TAILWIND CSS'],
+		link: 'https://shopeecloneapp.netlify.app/',
 	},
 	{
 		projectID: 1,
